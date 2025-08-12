@@ -7,8 +7,8 @@ AppDataSource.initialize()
 
         // Create a new user
         const user = new User();
-        user.name = "Don";
-        user.email = "john@example.com";
+        user.name = "ok";
+        user.email = "ok@ok.com";
         await userRepo.save(user);
 
         // Fetch and print all users
